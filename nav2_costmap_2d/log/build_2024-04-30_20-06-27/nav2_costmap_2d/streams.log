@@ -1,0 +1,256 @@
+[0.012s] Invoking command in '/home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ssyt/桌面/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.759s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.789s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.793s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.799s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.958s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.959s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.059s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.085s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.128s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.135s] -- Looking for pthread.h
+[1.201s] -- Looking for pthread.h - found
+[1.202s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.271s] -- Found Threads: TRUE  
+[1.441s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.608s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[1.612s] -- Found nav2_common: 1.1.14 (/opt/ros/humble/share/nav2_common/cmake)
+[1.614s] -- Found nav2_msgs: 1.1.14 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.757s] -- Found nav2_util: 1.1.14 (/opt/ros/humble/share/nav2_util/cmake)
+[1.970s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.971s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.115s] -- Found nav2_voxel_grid: 1.1.14 (/opt/ros/humble/share/nav2_voxel_grid/cmake)
+[2.118s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.135s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.148s] -- Found tf2_sensor_msgs: 0.25.6 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[2.162s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.245s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[2.247s] -- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.3") 
+[2.247s] -- Setting build type to Release as none was specified.
+[4.372s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.621s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.636s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.643s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.011s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.011s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ssyt/桌面/nav2_costmap_2d/include>
+[6.012s] -- Configured cppcheck exclude dirs and/or files: 
+[6.013s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.015s] -- Added test 'lint_cmake' to check CMake code style
+[6.017s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.026s] -- Added test 'uncrustify' to check C / C++ code style
+[6.026s] -- Configured uncrustify additional arguments: 
+[6.027s] -- Added test 'xmllint' to check XML markup files
+[6.030s] -- Configuring done
+[6.615s] -- Generating done
+[6.620s] -- Build files have been written to: /home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d
+[6.638s] Invoked command in '/home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ssyt/桌面/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d
+[6.641s] Invoking command in '/home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d -- -j16 -l16
+[6.691s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o[0m
+[6.692s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.692s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o[0m
+[6.692s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o[0m
+[6.692s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.692s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o[0m
+[6.692s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o[0m
+[6.692s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o[0m
+[6.693s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o[0m
+[6.693s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o[0m
+[6.693s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o[0m
+[6.694s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o[0m
+[6.695s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o[0m
+[6.698s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[6.698s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/plugins/costmap_filters/costmap_filter.cpp.o[0m
+[7.843s] [ 19%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.908s] [ 19%] Built target gtest_main
+[13.622s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.690s] [ 20%] Built target gtest
+[21.896s] [ 21%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[22.147s] [ 21%] Built target nav2_costmap_2d_core
+[22.172s] [ 23%] [32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o[0m
+[22.172s] [ 24%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[22.172s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[22.172s] [ 26%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[22.173s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[22.173s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[22.173s] [ 30%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[22.173s] [ 31%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o[0m
+[22.174s] [ 32%] [32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o[0m
+[22.174s] [ 35%] [32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o[0m
+[22.174s] [ 35%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o[0m
+[22.175s] [ 36%] [32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o[0m
+[22.175s] [ 37%] [32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o[0m
+[22.175s] [ 39%] [32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o[0m
+[22.183s] [ 40%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o[0m
+[22.187s] [ 41%] [32mBuilding CXX object test/regression/CMakeFiles/order_layer.dir/order_layer.cpp.o[0m
+[24.268s] [ 42%] [32m[1mLinking CXX executable array_parser_test[0m
+[24.426s] [ 43%] [32m[1mLinking CXX executable costmap_bresenham_2d[0m
+[24.640s] [ 43%] Built target array_parser_test
+[24.654s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[24.793s] [ 45%] Built target costmap_bresenham_2d
+[24.811s] [ 46%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[27.375s] [ 47%] [32m[1mLinking CXX shared library liborder_layer.so[0m
+[27.741s] [ 47%] Built target order_layer
+[27.755s] [ 48%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[27.770s] [ 50%] [32m[1mLinking CXX executable costmap_convesion_test[0m
+[28.049s] [ 51%] [32m[1mLinking CXX executable copy_window_test[0m
+[28.242s] [ 51%] Built target costmap_convesion_test
+[28.255s] [ 52%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[28.483s] [ 52%] Built target copy_window_test
+[28.496s] [ 53%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[28.882s] [ 54%] [32m[1mLinking CXX executable costmap_filter_test[0m
+[28.977s] [ 56%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[29.001s] [ 57%] [32m[1mLinking CXX executable declare_parameter_test[0m
+[29.128s] [ 58%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[29.323s] [ 58%] Built target costmap_filter_test
+[29.343s] [ 59%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o[0m
+[29.394s] [ 59%] Built target declare_parameter_test
+[29.408s] [ 60%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[29.506s] [ 60%] Built target collision_footprint_test
+[29.520s] [ 62%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[29.961s] [ 63%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o[0m
+[30.481s] [ 64%] [32m[1mLinking CXX executable plugin_api_order[0m
+[30.919s] [ 64%] Built target plugin_api_order
+[30.959s] [ 65%] [32m[1mLinking CXX executable costmap_filter_service_test[0m
+[31.392s] [ 65%] Built target costmap_filter_service_test
+[33.834s] [ 67%] [32m[1mLinking CXX executable dyn_params_tests[0m
+[34.169s] [ 67%] Built target dyn_params_tests
+[36.046s] [ 68%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[36.270s] [ 68%] Built target nav2_costmap_2d_markers
+[37.164s] [ 69%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[37.376s] [ 69%] Built target nav2_costmap_2d_cloud
+[38.212s] [ 70%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[38.576s] [ 70%] Built target nav2_costmap_2d_client
+[44.117s] [ 71%] [32m[1mLinking CXX shared library libfilters.so[0m
+[44.460s] [ 71%] Built target filters
+[44.480s] [ 75%] [32mBuilding CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o[0m
+[44.480s] [ 75%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[44.480s] [ 75%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[47.656s] [ 76%] [32m[1mLinking CXX shared library liblayers.so[0m
+[48.079s] [ 76%] Built target layers
+[48.101s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o[0m
+[48.101s] [ 81%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[48.102s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[48.102s] [ 81%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[48.102s] [ 84%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[48.102s] [ 85%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[48.102s] [ 86%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o[0m
+[48.103s] [ 86%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[48.103s] [ 87%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o[0m
+[51.926s] [ 89%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[52.230s] [ 89%] Built target keepout_filter_test
+[53.035s] [ 90%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[53.218s] [ 91%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[53.306s] [ 91%] Built target nav2_costmap_2d
+[53.451s] [ 91%] Built target footprint_tests_exec
+[55.078s] [ 92%] [32m[1mLinking CXX executable range_tests_exec[0m
+[55.147s] [ 93%] [32m[1mLinking CXX executable denoise_layer_test[0m
+[55.385s] [ 93%] Built target range_tests_exec
+[55.481s] [ 93%] Built target denoise_layer_test
+[56.509s] [ 95%] [32m[1mLinking CXX executable binary_filter_test[0m
+[56.808s] [ 95%] Built target binary_filter_test
+[57.600s] [ 96%] [32m[1mLinking CXX executable speed_filter_test[0m
+[57.885s] [ 96%] Built target speed_filter_test
+[58.243s] [ 98%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[58.244s] [ 98%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[58.504s] [ 98%] Built target obstacle_tests_exec
+[58.533s] [ 98%] Built target test_collision_checker_exec
+[58.571s] [100%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[58.815s] [100%] Built target inflation_tests_exec
+[58.828s] Invoked command in '/home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d -- -j16 -l16
+[58.985s] Invoking command in '/home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d
+[58.992s] -- Install configuration: "Release"
+[58.992s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/liblayers.so
+[58.997s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[58.997s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/libfilters.so
+[58.999s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/libfilters.so" to ""
+[59.000s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[59.003s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[59.003s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[59.005s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[59.005s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[59.006s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+[59.006s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[59.007s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+[59.007s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[59.007s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+[59.007s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[59.008s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[59.009s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[59.010s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[59.011s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[59.012s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[59.012s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[59.012s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[59.012s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[59.012s] -- Up-to-date: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[59.012s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[59.013s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[59.014s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[59.014s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[59.014s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[59.014s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[59.014s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[59.015s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[59.015s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[59.015s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.015s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[59.015s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[59.016s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[59.016s] -- Installing: /home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/liborder_layer.so
+[59.016s] -- Set runtime path of "/home/ssyt/桌面/nav2_costmap_2d/install/nav2_costmap_2d/lib/liborder_layer.so" to ""
+[59.018s] Invoked command in '/home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ssyt/桌面/nav2_costmap_2d/build/nav2_costmap_2d
